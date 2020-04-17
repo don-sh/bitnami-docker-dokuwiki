@@ -1,4 +1,4 @@
-FROM docker.io/bitnami/minideb:buster
+FROM docker.io/arm32v7/alpine:3
 LABEL maintainer "Bitnami <containers@bitnami.com>"
 
 ENV PATH="/opt/bitnami/apache/bin:/opt/bitnami/common/bin:/opt/bitnami/php/bin:/opt/bitnami/php/sbin:/opt/bitnami/common/bin:/opt/bitnami/nami/bin:$PATH"
